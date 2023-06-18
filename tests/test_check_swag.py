@@ -1,5 +1,5 @@
 from pages.swag_labs import SwagLabs
-def test_icon_exist(browser):
+def test_swag_exist(browser):
     swag_labs_page = SwagLabs(browser)
     swag_labs_page.visit()
 
